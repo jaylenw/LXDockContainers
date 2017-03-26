@@ -28,5 +28,4 @@ Read the LXDock documentation to install LXD and LXDock on your system.
 #### Note
 
 When using shared folders, first create the folder you would like to share on the host first. Then make sure the source and destination folders are correctly
-determined in the lxdock.yml file. Then run lxdock up or provision depending on
-what stage you are in setting up the container(s).
+determined in the lxdock.yml file. Then run `lxdock up` or `lxdock provision` depending on what stage you are in setting up the container(s).
