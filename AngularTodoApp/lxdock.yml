@@ -23,6 +23,6 @@ image: ubuntu/xenial
 
 # A common need is to access your project folder in your containers. To do this you can use the
 # "shares" option:
-#shares:
-#  - source: .
-#    dest: /myshare
+shares:
+  - source: /home/jaylenw/Programming/LXDockContainers/AngularTodoApp/Files
+    dest: /root/
