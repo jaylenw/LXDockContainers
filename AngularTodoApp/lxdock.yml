@@ -1,0 +1,17 @@
+name: AngularTodoApp
+image: ubuntu/xenial
+
+users:
+  - name: lxdUSR
+    home: /home/lxdUSR/
+
+shares: 
+  - source: ./Files
+    dest: /home/lxdUSR/
+
+shell:
+  user: lxdUSR
+  home: /home/lxdUSR/
+
+
+
