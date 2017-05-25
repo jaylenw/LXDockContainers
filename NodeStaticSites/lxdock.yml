@@ -23,11 +23,11 @@ image: ubuntu/xenial
 
 # A common need is to access your project folder in your containers. To do this you can use the
 # "shares" option:
- shares:
-   - source: ./Files
-     dest: /root/
+shares:
+  - source: ./Files
+    dest: /root/
 
 #Provisioning script for this container
 provisioning:
-   - type: shell
-     script: ./provision.sh
+  - type: shell
+    script: provision.sh
