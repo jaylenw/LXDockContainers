@@ -3,6 +3,8 @@
 echo "Upgrading System:"
 sudo apt update
 sudo apt upgrade -y  
+echo "Installing Git:"
+sudo apt install git -y
 echo "Installing Node:"
 sudo apt install nodejs -y  
 sudo ln -s /usr/bin/nodejs /usr/bin/node
