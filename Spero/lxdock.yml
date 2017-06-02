@@ -17,9 +17,9 @@ image: ubuntu/xenial
 
 # You can use the "provisioning" option to define provisioning tools that should be used to
 # provision your containers. For example, you could use Ansible as follows:
-provisioning:
-   - type: shell
-     script: provision.sh
+#provisioning:
+#   - type: shell
+#     script: provision.sh
 
 # A common need is to access your project folder in your containers. To do this you can use the
 # "shares" option:

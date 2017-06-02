@@ -1,3 +1,5 @@
+use provision.sh in container and not using it as directed in lxdock.yml file
+
 Packages below can be installed via ubuntu repos
 
 openjdk-8-jre -y
@@ -6,7 +8,8 @@ openjdk-8-jdk -y
 chromium-browser -y
 
 ssh -y (note, must edit sshd_config to allow X forwarding for gui applications,
-restart the ssh service, and make sure set password for root account)
+restart the ssh service, and make sure set password for root account. Allow root
+login to be yes in sshd_config)
 
 mariadb-server -y
 mariadb-client -y
