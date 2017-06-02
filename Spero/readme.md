@@ -9,7 +9,7 @@ chromium-browser -y
 
 ssh -y (note, must edit sshd_config to allow X forwarding for gui applications,
 restart the ssh service, and make sure set password for root account. Allow root
-login to be yes in sshd_config)
+login to be yes in sshd_config, "PermitRootLogin yes")
 
 mariadb-server -y
 mariadb-client -y
