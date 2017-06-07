@@ -16,6 +16,8 @@ echo "Installing MariaDB client:"
 sudo apt install mariadb-client -y
 echo "Installing Nano:"
 sudo apt install nano -y
+echo "Installing Maven:"
+sudo apt install maven -y
 echo "Installing Chromium"
 sudo apt install chromium-browser -y
 echo "Installing SSH"
