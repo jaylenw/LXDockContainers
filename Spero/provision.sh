@@ -28,7 +28,8 @@ sudo apt install chromium-browser -y
 #
 # Angular Specific Packages
 #
-echo "Installing nodejs:"
+echo "Installing 6.x nodejs:"
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt install nodejs -y
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 echo "Installing and Upgrading NPM:"
