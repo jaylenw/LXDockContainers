@@ -25,16 +25,5 @@ echo "Installing Maven:"
 sudo apt install maven -y
 echo "Installing Chromium:"
 sudo apt install chromium-browser -y
-#
-# Angular Specific Packages
-#
-echo "Installing 6.x nodejs:"
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt install nodejs -y
-sudo ln -s /usr/bin/nodejs /usr/bin/node
-echo "Installing and Upgrading NPM:"
-sudo apt install npm
-sudo npm install -g npm
-echo "Installing Angular CLI:"
-sudo npm install -g @angular/cli
+
 
